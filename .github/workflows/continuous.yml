@@ -24,6 +24,12 @@ jobs:
               run: npm install
               
             - name: "List directories"
-              run: ls  
+              run: ls
+              
+            - name: "Run tests"
+              run: npm test
+
+            - name: "Run Build"
+              run: npm run build 
   
                   
